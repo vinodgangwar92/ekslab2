@@ -12,7 +12,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 git branch: 'main',
-                url: 'https://gitlab.com/SOFTAPP-TECHNOLOGIES/jenkins-ci-cd-via-kubernete-eks.git'
+                url: 'https://github.com/vinodgangwar92/ekslab2.git'
             }
         }
 
